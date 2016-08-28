@@ -27,6 +27,13 @@ Add you SSH key!
 
 Uncheck `Allow SSH password authentication`.
 
+--
+
+> **Troubleshooting**
+> If you lock yourself out eg. with wrong firewall routes continually press the `Reset` button. The connection will be available only while keeping the button pressed. Now you can ssh into the device and reset the device with `firstboot`.
+
+--
+
 ## setup firewall rules
 
 Create a new network interface: Set the name to `tun0`, and protocol to `Unmanaged`. Set `Custom Interface:` to `tun0 `.
@@ -131,7 +138,7 @@ TSMSym4Np+AmT7OX
 chmod 644 /etc/openvpn/ca.crt
 ```
 
-## Troubleshooting
+## Reboot
 
-If you lock yourself out eg. with wrong firewall routes continually press the `Reset` button. The connection will be available only while keeping the button pressed. Now you can ssh into the device and reset the device with `firstboot`.
+:rocket: We're done!
 
