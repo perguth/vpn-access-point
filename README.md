@@ -10,7 +10,7 @@ Download the md5 sum file: https://downloads.openwrt.org/snapshots/trunk/ar71xx/
 
 Calculate the md5 checksum `md5 openwrt-ar71xx-generic-gl-ar150-squashfs-sysupgrade.bin` and check if it matches the one in `md5sums`.
 
-## setup openwrt
+## Setup Openwrt
 
 ```sh
 ssh root@192.168.1.1
@@ -34,7 +34,7 @@ Uncheck `Allow SSH password authentication`.
 
 --
 
-## setup firewall rules
+## Setup Firewall Rules
 
 Create a new network interface: Set the name to `tun0`, and protocol to `Unmanaged`. Set `Custom Interface:` to `tun0 `.
 
