@@ -1,4 +1,4 @@
-# vpn-access-point
+# VPN Access Point
 
 > Use the mini router [AR150](http://www.gl-inet.com/ar150/) and a VPN eg. [proxy.sh](https://proxy.sh/) to provide an always-private internet access point.
 
