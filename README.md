@@ -10,6 +10,8 @@ Download the [md5 sum file](https://downloads.openwrt.org/snapshots/trunk/ar71xx
 
 Calculate the md5 checksum (`md5 openwrt-ar71xx-generic-gl-ar150-squashfs-sysupgrade.bin`) and check if it matches the one in given in the `md5sums` file.
 
+Flash the image via the system update web GUI of the router.
+
 ## Setup Openwrt
 
 ```sh
