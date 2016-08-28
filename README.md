@@ -48,7 +48,7 @@ with `Masquerading` and `MSS clamping` enabled.
 
 Select `tun0 ` under `Covered networks`. Enable `Allow forward from source zones:` for `lan`.
 
-Disable forwarding from `lan` to `wan` and set `forwarding` to `reject.
+Disable forwarding from `lan` to `wan` and generally set `forwarding` to `reject` for `lan`.
 
 
 ## OpenVPN
