@@ -4,11 +4,11 @@
 
 ## Flash OpenWrt
 
-Download the firmware: https://wiki.openwrt.org/toh/gl-inet/gl-ar150#installation
+Download the [firmware](https://wiki.openwrt.org/toh/gl-inet/gl-ar150#installation).
 
-Download the md5 sum file: https://downloads.openwrt.org/snapshots/trunk/ar71xx/generic/md5sums
+Download the [md5 sum file](https://downloads.openwrt.org/snapshots/trunk/ar71xx/generic/md5sums).
 
-Calculate the md5 checksum `md5 openwrt-ar71xx-generic-gl-ar150-squashfs-sysupgrade.bin` and check if it matches the one in `md5sums`.
+Calculate the md5 checksum (`md5 openwrt-ar71xx-generic-gl-ar150-squashfs-sysupgrade.bin`) and check if it matches the one in given in the `md5sums` file.
 
 ## Setup Openwrt
 
